@@ -1,10 +1,39 @@
 # cocoapods-acknowledgements-licenses
 
-A Clojure library for parsing CocoaPods Acknowledgements Plist files.
+[![Clojars Version](https://img.shields.io/clojars/v/org.clojars.vrs/cocoapods-acknowledgements-licenses)](https://clojars.org/org.clojars.vrs/cocoapods-acknowledgements-licenses)
 
-## Usage
+A Clojure library for parsing [CocoaPods
+Acknowledgements](https://github.com/CocoaPods/cocoapods-acknowledgements)
+`plist` files to be used in
+[pip-license-checker](https://github.com/pilosus/pip-license-checker)
+license compliance tool.
 
-FIXME
+## Installation
+
+### Leiningen
+
+Add the following to the `:dependencies` list in your `project.clj`:
+
+```
+[org.clojars.vrs/cocoapods-acknowledgements-licenses "0.1.0"]
+```
+
+## Quick Start
+
+```
+(require '[cocoapods-acknowledgements-licenses.core :refer [plist->data]])
+(plist->data "resources/deps.plist" {:skip-header true :skip-footer true})
+```
+
+
+## Options
+
+As a second argument `plist->data` expectes an options map. The
+following options are availabe:
+
+- `:skip-header [boolean]` - skip the first item in the plist file (header). Default value is `true`.
+- `:skip-footer [boolean]` - skip the last item in the plist file (footer). Default value is `true`.
+
 
 ## License
 

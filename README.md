@@ -1,5 +1,6 @@
 # cocoapods-acknowledgements-licenses
 
+[![codecov](https://codecov.io/gh/pilosus/cocoapods-acknowledgements-licenses/branch/main/graph/badge.svg?token=Xygsyny6Fg)](https://codecov.io/gh/pilosus/cocoapods-acknowledgements-licenses)
 [![Clojars Version](https://img.shields.io/clojars/v/org.clojars.vrs/cocoapods-acknowledgements-licenses)](https://clojars.org/org.clojars.vrs/cocoapods-acknowledgements-licenses)
 
 A Clojure library for parsing [CocoaPods

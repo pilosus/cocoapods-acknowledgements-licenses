@@ -1,4 +1,4 @@
-(defproject org.clojars.vrs/cocoapods-acknowledgements-licenses "0.1.0-SNAPSHOT"
+(defproject org.clojars.vrs/cocoapods-acknowledgements-licenses "0.1.0"
   :description "CocoaPods Acknowledgements Plist file parser"
   :url "https://github.com/pilosus/cocoapods-acknowledgements-licenses"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
